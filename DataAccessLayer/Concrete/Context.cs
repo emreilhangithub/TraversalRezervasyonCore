@@ -13,7 +13,7 @@ namespace DataAccessLayer.Concrete
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         // Kod içinde bir değerin protected olarak tanımlanması; o değere, bulunduğu class ve ondan türetilen diğer sınıflar içinden erişilebilir olduğunu göstermektedir.
         {
-            optionsBuilder.UseSqlServer("server=(localdb)\\MSSQLLOCALDB;database=TraversalRezervasyonCoreDB;integrated security=true;");
+            optionsBuilder.UseSqlServer("Server=DESKTOP-I1U4DR9;initial catalog=TraversalRezervasyonCoreDB;Integrated Security=true");
         }
 
         public DbSet<About> Abouts { get; set; }
