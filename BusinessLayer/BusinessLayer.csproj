@@ -21,5 +21,9 @@
     <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj" />
     <ProjectReference Include="..\EntityLayer\EntityLayer.csproj" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ValidationRule\" />
+  </ItemGroup>
   
 </Project>
